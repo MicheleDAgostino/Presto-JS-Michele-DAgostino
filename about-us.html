@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Presto</title>
+    
+    
+    <!-- CSS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica&family=Lobster&family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- CSS PERSONALE -->
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    
+    <!-- INIZIO NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top mx-auto" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img id="logo" class="logo img-fluid" src="./media/logowhite.png" alt="">
+            </a>
+            <div class="dim-custom"></div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./index.html" target="_blank">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./annunci.html" target="_blank">Annunci</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about-us.html">About us</a>
+                    </li>
+                </ul>
+                
+                <!-- SEZIONE CON ICONE SOCIAL -->
+                <div class="icon-custom dim-custom">
+                    <i class="fa-brands fa-instagram mx-2"></i>
+                    <i class="fa-brands fa-linkedin mx-2"></i>
+                    <i class="fa-brands fa-facebook-f mx-2"></i>
+                    <i class="fa-brands fa-twitter mx-2"></i>
+                </div>
+                
+                
+                <!-- BOTTONE PER MODALITA' DARK -->
+                <div>
+                    <button class="btnCustom">
+                        <i class="fa-regular fa-lightbulb"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- FINE NAVBAR -->
+
+    <!-- INIZIO HEADER -->
+    <header class="container-fluid">
+        <div class="row heigth-custom align-content-center">
+            <div class="col-12 text-center">
+                <h1 class="display-1 text-gradient">Il nostro Team</h1>
+            </div>
+        </div>
+    </header>
+    <!-- FINE HEADER -->
+
+
+    <!-- INIZIO MAIN -->
+    <main class="min-vh-100">
+        <!-- INIZIO PRIMA SECTION -->
+        <section class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="circle">
+                        <div class="arrow">
+                            <i class="fa-solid fa-arrow-right fa-rotate-90 fa-3x"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="member-card d-none">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FINE PRIMA SECTION -->
+    </main>
+    <!-- FINE MAIN -->
+    
+    
+    <!-- INIZIO FOOTER -->
+    <footer class="container-fluid footer-bg">
+        <div class="row justify-content-around align-content-center h-100">
+            <div class="col-12 col-md-3 text-custom">
+                <h4 class="display-6">Presto srl</h4>
+                <p>Via della libertà</p>
+                <p>P.I. 02154638971</p>
+            </div>
+            <div class="col-12 col-md-3 text-custom">
+                <p>Contatti:</p>
+                <div class="d-flex">
+                    <i class="fa-solid fa-phone mx-2"></i>
+                    <p>081.253.654</p>
+                </div>
+                <div class="d-flex">
+                    <i class="fa-solid fa-mobile mx-2"></i>
+                    <p>+39.3336594182</p>
+                </div>
+                <div class="d-flex">
+                    <i class="fa-solid fa-envelope mx-2"></i>
+                    <p>mdagostino946@gmail.com</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 text-custom d-flex flex-column align-items-center justify-content-center">
+                <i class="fa-solid fa-circle-user fa-3x"></i>
+                <label for="emailUser">Email</label>
+                <input type="text" id="emailUser" class="input-custom">
+                <label for="emailUser">Password</label>
+                <input type="text" id="emailUser" class="input-custom">
+            </div>
+        </div>
+    </footer>
+    <!-- FINE FOOTER -->
+    
+    
+    
+    
+    
+    
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/978e4165df.js" crossorigin="anonymous"></script>
+    
+    <!-- JS BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+    
+    <!-- JS PERSONALE -->
+    <script src="./about-us.js"></script>
+    
+    <!-- JS NAVBAR -->
+    <script src="./navbar.js"></script>
+</body>
+</html>
